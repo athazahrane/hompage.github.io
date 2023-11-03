@@ -79,6 +79,10 @@ a.text-berita:hover {
     cursor: pointer;
 } */
 
+footer .bg-footer img.bg {
+    height: 440px;
+}
+
 /* breakpoint */
 @media screen and(max-width: 1555px) {
     footer .bg-footer img.bg {
@@ -127,6 +131,10 @@ a.text-berita:hover {
         left: 35%;
         font-size: .8rem;
     }
+    
+    .banner .banner-phone{
+        display: none;
+    }
 
     .hero .container .row {
         display: flex;
@@ -138,20 +146,14 @@ a.text-berita:hover {
         max-width: 400px;
     }
 
-    .carousel-item .banner {
-        
-    }
-
-    .carousel-item .banner .row .col-lg-6 img {
-
-    }
-
     .hero-2 .container-fluid {
         margin-top: 0;
     }
 
     footer .bg-footer img.bg {
-        height: 800px;
+        height: 1070px;
+        width: 200%;
+        margin-left: -350px;
     }
     
     .ayo {
@@ -162,15 +164,15 @@ a.text-berita:hover {
         justify-content: center;
     }
 
-    .explore {
-        margin-top: 100px;
-    }
-
     footer .bg-footer .row .ayo,
     footer .bg-footer .row .explore,
     footer .bg-footer .row .service,
     footer .bg-footer .row .socials {
         margin: 10px 0;
+    }
+
+    footer .bg-footer .row .ayo {
+        margin-top: 130px;
     }
     
 }
